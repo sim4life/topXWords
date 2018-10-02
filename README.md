@@ -14,24 +14,24 @@ Given the attached text file as an argument, your program will read the file, an
 cat $1 | tr -cs 'a-zA-Z' '[\n*]' | grep -v "^$" | tr '[:upper:]' '[:lower:]'| sort | uniq -c | sort -nr | head -20
  ```
 
-Sample output (this output is not from the reference text):
-9 the
-5 you
-4 lessons 
-4 can
-4 a
-3 vim
-3 of
-3 is
-3 file
-2 users
-2 tutorial 
-2 tutor
-2 the
-2 that
-2 new
-2 make
-2 it
-2 in
-2 have
+Sample output (this output is not from the reference text):  
+9 the  
+5 you  
+4 lessons  
+4 can  
+4 a  
+3 vim  
+3 of  
+3 is  
+3 file  
+2 users  
+2 tutorial  
+2 tutor  
+2 the  
+2 that  
+2 new  
+2 make  
+2 it  
+2 in  
+2 have  
 2 for
